@@ -1,12 +1,10 @@
-package ggaworowski.justkotlinapplication.utils.validator
+package ggaworowski.validator
 
 import android.text.TextUtils
 
-import ggregor.androidvalidator.*
 import java.lang.reflect.Field
 import java.util.*
 import java.util.regex.Pattern
-import kotlin.reflect.KVisibility
 import kotlin.reflect.full.declaredMemberProperties
 import kotlin.reflect.full.findAnnotation
 import kotlin.reflect.full.memberProperties

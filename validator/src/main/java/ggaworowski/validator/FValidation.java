@@ -1,4 +1,4 @@
-package ggregor.androidvalidator;
+package ggaworowski.validator;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Repeatable;
@@ -6,8 +6,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import static ggregor.androidvalidator.ValidatorConst.NO_MESSAGE_VALUE;
-import static ggregor.androidvalidator.ValidatorConst.NO_VALIDATION_VALUE;
+import static ggaworowski.validator.ValidatorConst.NO_MESSAGE_VALUE;
+import static ggaworowski.validator.ValidatorConst.NO_VALIDATION_VALUE;
 
 
 /**

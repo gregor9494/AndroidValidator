@@ -1,4 +1,4 @@
-package ggregor.androidvalidator;
+package ggaworowski.validator;
 
 /**
  * Created by GG on 06.02.2018.

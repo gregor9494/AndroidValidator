@@ -1,7 +1,7 @@
-package ggaworowski.justkotlinapplication.utils.validator
+package ggaworowski.validator
 
 
-import ggregor.androidvalidator.ValidatorConst.NO_MESSAGE_VALUE
+import ggaworowski.validator.ValidatorConst.NO_MESSAGE_VALUE
 
 /**
  * Created by GG on 05.02.2018.
