@@ -5,5 +5,5 @@ package ggaworowski.validator;
  */
 
 public enum DateValidation {
-    NONE, NOT_EMPTY, AFTER_NOW, BEFORE_NOW, AFTER_ANOTHER, BEFORE_ANOTHER
+    NONE, NOT_EMPTY, AFTER_NOW, BEFORE_NOW, @Deprecated AFTER_ANOTHER, @Deprecated BEFORE_ANOTHER
 }

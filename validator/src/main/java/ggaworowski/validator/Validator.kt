@@ -44,6 +44,8 @@ class Validator {
         }
 
         private fun validateByType(annotation: FValidation, obj: Any?): Boolean {
+            if (obj == null) return true
+
 
             if (annotation.type == FieldTypes.EMAIL) {
                 if (!android.util.Patterns.EMAIL_ADDRESS.matcher(obj.toString()).matches()) {
@@ -74,10 +76,10 @@ class Validator {
         }
 
         private fun validateField(annotation: FValidation, obj: Any?): Boolean {
-            if(annotation.hasToBeNotNull && obj == null) return false
+            if (annotation.hasToBeNotNull && obj == null) return false
 
-            if(annotation.regexPattern.isNotEmpty() && obj?.toString()?.isNotEmpty() == true){
-                if (!Pattern.matches(annotation.regexPattern,obj.toString())) {
+            if (annotation.regexPattern.isNotEmpty() && obj?.toString()?.isNotEmpty() == true) {
+                if (!Pattern.matches(annotation.regexPattern, obj.toString())) {
                     return false
                 }
             }
