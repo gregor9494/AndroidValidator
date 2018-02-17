@@ -1,13 +1,13 @@
 # AndroidValidator
 Model based validation library for Android written in kotlin
 
-Kotlin sample usage:
+Kotlin sample usage: (Column info is not part of validator is from Room library)
 
 ![](https://image.ibb.co/gLn6RS/validator_1.png)
 
 
 
-Validation:  (Column info is not part of validator is from Room library)
+Validation:  
 
 ![](https://i.imgur.com/OaMcIXR.png)
 
