@@ -23,6 +23,7 @@ Model in java:
 Import:
 
 Add it in your root build.gradle at the end of repositories:
+
     allprojects {
         repositories {
           ...
@@ -31,6 +32,7 @@ Add it in your root build.gradle at the end of repositories:
       }
       
 Add the dependency
+
       dependencies {
                 ...
                 compile 'com.github.gregor9494:AndroidValidator:1.0.4'
