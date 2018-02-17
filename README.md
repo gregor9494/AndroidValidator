@@ -7,7 +7,7 @@ Kotlin sample usage:
 
 
 
-Validation:
+Validation:  (Column info is not part of validator is from Room library)
 
 ![](https://i.imgur.com/OaMcIXR.png)
 
