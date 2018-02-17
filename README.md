@@ -37,3 +37,7 @@ Add the dependency
                 ...
                 compile 'com.github.gregor9494:AndroidValidator:1.0.4'
         }
+
+
+If you fell gratefull for my work you can buy me a cup of coffee
+PayPal.Me/GregorAndroidDevelop
