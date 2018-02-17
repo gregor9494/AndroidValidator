@@ -19,6 +19,7 @@ Model in java:
 
 ![](https://i.imgur.com/39e1Bqb.png)
 
+All validated fields have to have standard getters
 
 Import:
 
