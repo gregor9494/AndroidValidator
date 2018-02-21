@@ -36,7 +36,7 @@ Add the dependency
 
       dependencies {
                 ...
-                compile 'com.github.gregor9494:AndroidValidator:1.0.4'
+                compile 'com.github.gregor9494:AndroidValidator:1.0.6'
         }
 
 
