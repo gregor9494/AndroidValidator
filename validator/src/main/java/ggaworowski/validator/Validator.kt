@@ -17,7 +17,7 @@ class Validator {
     companion object {
         val NO_VALIDATION_VALUE = -1
 
-        fun validate(obj: Any, callback: (ValidatorError) -> Unit = {}): Boolean {
+        @JvmStatic fun validate(obj: Any, callback: (ValidatorError) -> Unit = {}): Boolean {
             obj::class.java.declaredFields.forEach {
                 val field = it
                 it.declaredAnnotations.forEach({
